@@ -5,8 +5,8 @@ services:
     repo: https://github.com/fabricedge/medusa-backend
     region: oregon
     plan: starter
-    buildCommand: pnpm install
-    startCommand: pnpm start
+    buildCommand: npm ci
+    startCommand: npm start
     healthCheckPath: /health
     envVars:
       - key: NODE_VERSION
