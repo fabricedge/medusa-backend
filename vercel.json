@@ -1,5 +1,5 @@
 {
-  "buildCommand": "",
+  "buildCommand": "echo 'build skipped'",
   "outputDirectory": ".medusa/server",
   "functions": {
     "api/index.ts": {
