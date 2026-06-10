@@ -1,5 +1,5 @@
 {
-  "buildCommand": "medusa build",
+  "buildCommand": "",
   "outputDirectory": ".medusa/server",
   "functions": {
     "api/index.ts": {
